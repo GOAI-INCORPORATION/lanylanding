@@ -128,11 +128,10 @@ export function FeaturesCardList1 () {
             className='items-start'
             align='left'
             subtitle={[
-              'Connect data from over 100 sources.',
-              'Organize your data using categories and focus areas.'
+              'Stop juggling between Gmail, Slack, Google Drive, Notion, and your calendar. Our platform connects your tools so your AI assistants finally have the context they need.'
             ]}
           >
-            <h4>Connect and consolidate your scattered data</h4>
+            <h4>Unify your scattered apps into one hub.</h4>
           </Heading>
           {/* <div className='flex items-center gap-3 md:order-3'>
             <button className='bg-indigo-500 text-white !h-14 p-3 flex-col bg-accent-500 items-center justify-center rounded-none !text-base flex w-full'>
@@ -171,11 +170,10 @@ export function FeaturesCardList1 () {
             className='items-start'
             align='left'
             subtitle={[
-              'Connect data from over 100 sources.',
-              'Organize your data using categories and focus areas.'
+              'Stop juggling between Gmail, Slack, Google Drive, Notion, and your calendar. Our platform connects your tools so your AI assistants finally have the context they need.'
             ]}
           >
-            <h4>Connect and consolidate your scattered data</h4>
+            <h4>Unify your scattered apps into one hub.</h4>
           </Heading>
           {/* <div className='flex items-center gap-3 md:order-3'>
             <button className='bg-indigo-500 text-white !h-14 p-3 flex-col bg-accent-500 items-center justify-center rounded-none !text-base flex w-full'>

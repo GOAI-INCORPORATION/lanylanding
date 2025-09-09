@@ -64,9 +64,9 @@ export function Heading({ tag, subtitle, className, align = "center", ...props }
       </div>
 
       {subtitleItems.length > 0 ? (
-        <ul
+        <div
           className={clsx(
-            "max-w-screen-md list-disc pl-6 text-pretty text-lg font-light text-text-tertiary dark:text-[--dark-text-tertiary] md:text-xl",
+            "max-w-screen-md list-disc text-pretty text-lg font-light text-text-tertiary dark:text-[--dark-text-tertiary] md:text-xl",
             {
               "text-center list-inside pl-0": align === "center",
               "text-left": align === "left",
@@ -75,9 +75,9 @@ export function Heading({ tag, subtitle, className, align = "center", ...props }
           )}
         >
           {subtitleItems.map((item, i) => (
-            <li key={i}>{item}</li>
+            <div key={i}>{item}</div>
           ))}
-        </ul>
+        </div>
       ) : null}
     </div>
   );

@@ -29,7 +29,7 @@ export function Callout2 () {
         {/* -------- */}
         <div className='relative z-20 flex flex-col items-center gap-2 text-center'>
           <h4 className='text-center text-3xl font-medium tracking-tighter text-[--text-primary] dark:text-[--dark-text-primary] sm:max-w-full sm:px-0 md:text-4xl'>
-            Bring your knowledge to life with AI agents
+          Ready to meet your AI team?
           </h4>
           {/* <p className="text-lg text-[--text-secondary] dark:text-[--dark-text-secondary] md:text-xl">
 		  {callout.subtitle}

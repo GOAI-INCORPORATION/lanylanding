@@ -18,11 +18,10 @@ export function Hero () {
         <div>
           <div className='mx-auto flex min-h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 px-2 py-4 sm:px-16 lg:px-24'>
             <h1 className='!max-w-screen-lg text-pretty text-center text-[clamp(32px,7vw,64px)] font-medium leading-none tracking-[-1.44px] text-primary dark:text-[--dark-text-primary] md:tracking-[-2.16px]'>
-              Your team of expert AI agents
+            Your AI Team, All in One Place.
             </h1>
             <h2 className='text-md max-w-2xl text-pretty text-center text-text-tertiary dark:text-[--dark-text-tertiary] md:text-lg'>
-              One platform to consolidate your data and manage your team of
-              expert AI agents grounded in your personal data.
+            Bring your emails, tasks, files, and calendar into a single hub where AI assistants collaborate with you to manage your life.
             </h2>
           </div>
         </div>

@@ -20,28 +20,22 @@ type FeatureItem = {
 export const featuresSideBySideList: { items: FeatureItem[] } = {
   items: [
     {
-      _title: 'AI Planner',
+      _title: 'AI Scheduler',
       subtitle:
         'Turn goals into prioritized plans with clear timelines and next steps.',
       icon: CalendarIcon
     },
     {
-      _title: 'AI Secretary',
+      _title: 'AI Money Manager',
       subtitle:
-        'Schedule, take notes, draft memos, and keep your tasks and inbox organized.',
+        'Track your expenses, bills, and budgets.',
       icon: ClipboardIcon
     },
     {
-      _title: 'AI Travel Assistant',
+      _title: 'AI Trip Planner',
       subtitle:
         'Find flights and stays, build itineraries, and handle last-minute changes.',
       icon: GlobeIcon
-    },
-    {
-      _title: 'AI Medical Assistant',
-      subtitle:
-        'Summarize symptoms, explain reports, and prep questions for your clinician.',
-      icon: HeartIcon
     },
     {
       _title: 'AI Tutor',
@@ -61,14 +55,13 @@ export function FeaturesCardList () {
       <div className='container relative top-0 mx-auto shrink self-stretch px-6 lg:w-1/2 lg:pl-0 lg:pr-12 xl:pr-20'>
         <div className='sticky bottom-0 top-[calc(var(--header-height)+40px)] flex flex-col gap-10'>
           <Heading
-            tag='agents'
+            tag='assistants'
             align='left'
             subtitle={[
-              'Create your team of personal AI agents grounded in your personal knowledge.',
-              'Handle advanced workflows, unlock productivity with your team of expert AI agents.'
+              'From a Scheduler that manages your calendar to a Money Manager that tracks your finances, build your personal AI team to handle the busywork so you can focus on what matters.'
             ]}
           >
-            <h4>Create your team of expert AI agents</h4>
+            <h4>Choose the assistants you need.</h4>
           </Heading>
           {/* <div className='flex items-center gap-3 md:order-3'>
             <button className='bg-indigo-500 text-white !h-14 p-3 flex-col bg-accent-500 items-center justify-center rounded-none !text-base flex w-full'>
@@ -78,7 +71,7 @@ export function FeaturesCardList () {
         </div>
       </div>
       <div className='w-full flex-1 shrink-0 lg:w-1/2 lg:flex-1'>
-        <div className='no-scrollbar flex gap-10 overflow-auto px-6 lg:flex-col lg:px-0'>
+        <div className='no-scrollbar flex gap-5 overflow-auto px-6 lg:flex-col lg:px-0'>
           {featuresSideBySideList.items.map(
             ({ _title, icon: Icon, subtitle }) => (
               <article
