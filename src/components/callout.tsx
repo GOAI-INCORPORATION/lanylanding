@@ -1,5 +1,6 @@
 import { Section } from '@/common/section-wrapper'
 import clsx from 'clsx'
+import Link from 'next/link'
 import s from './callout.module.css'
 
 export function Callout2 () {
@@ -29,16 +30,21 @@ export function Callout2 () {
         {/* -------- */}
         <div className='relative z-20 flex flex-col items-center gap-2 text-center'>
           <h4 className='text-center text-3xl font-medium tracking-tighter text-[--text-primary] dark:text-[--dark-text-primary] sm:max-w-full sm:px-0 md:text-4xl'>
-          Ready to meet your AI team?
+            Ready to meet your AI team?
           </h4>
           {/* <p className="text-lg text-[--text-secondary] dark:text-[--dark-text-secondary] md:text-xl">
 		  {callout.subtitle}
 		</p> */}
         </div>
-        <div className='relative z-10 flex items-center gap-2'>
-          <button className='bg-indigo-500 text-white !h-14 p-3 flex-col bg-accent-500 items-center justify-center rounded-none !text-base flex w-full'>
+        <div className='relative z-10 flex w-fit items-center gap-2'>
+          <Link
+            href='https://forms.gle/Y44uKeCq3vNxL66D8'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='bg-indigo-500 text-white px-10 rounded-[8px] !h-14 flex-col bg-accent-500 items-center justify-center !text-base flex w-full text-center'
+          >
             Get early access
-          </button>
+          </Link>
         </div>
       </article>
     </Section>

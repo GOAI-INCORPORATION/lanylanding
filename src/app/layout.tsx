@@ -41,7 +41,7 @@ export const revalidate = 30
 
 export const metadata: Metadata = {
   title: 'Lany AI',
-  description: 'Create your team of expert AI agents.'
+  description: 'Your AI Team, All in One Place.'
 }
 
 export default function RootLayout ({
