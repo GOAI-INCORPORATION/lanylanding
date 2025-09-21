@@ -121,7 +121,7 @@ export function FeaturesCardList1 () {
       className='relative lg:container lg:mx-auto lg:!flex-row lg:gap-0 lg:p-28'
       container='full'
     >
-      <div className='container lg:hidden flex relative top-0 mx-auto shrink self-stretch px-6 lg:w-1/2 lg:pl-0 lg:pr-12 xl:pr-20'>
+      <div className='container flex relative top-0 mx-auto shrink self-stretch px-6 lg:w-1/2 lg:pl-0 lg:pr-12 xl:pr-20'>
         <div className='sticky bottom-0 top-[calc(var(--header-height)+40px)] flex flex-col gap-10'>
           <Heading
             tag='knowledge'
@@ -161,25 +161,6 @@ export function FeaturesCardList1 () {
               />
             </div>
           ))}
-        </div>
-      </div>
-      <div className='container hidden lg:flex relative top-0 mx-auto shrink self-stretch px-6 lg:w-1/2 lg:pl-12 xl:pl-20'>
-        <div className='sticky bottom-0 top-[calc(var(--header-height)+40px)] flex flex-col gap-10'>
-          <Heading
-            tag='knowledge'
-            className='items-start'
-            align='left'
-            subtitle={[
-              'Stop juggling between Gmail, Slack, Google Drive, Notion, and your calendar. Our platform connects your tools so your AI assistants finally have the context they need.'
-            ]}
-          >
-            <h4>Unify your scattered apps into one hub.</h4>
-          </Heading>
-          {/* <div className='flex items-center gap-3 md:order-3'>
-            <button className='bg-indigo-500 text-white !h-14 p-3 flex-col bg-accent-500 items-center justify-center rounded-none !text-base flex w-full'>
-              Get early access
-            </button>
-          </div> */}
         </div>
       </div>
     </Section>
