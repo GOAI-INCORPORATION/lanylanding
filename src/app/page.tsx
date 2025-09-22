@@ -1,16 +1,15 @@
 import Image from 'next/image'
 import { Hero } from '@/components/hero'
 import { FeaturesCardList } from '@/components/features-list'
-import { Callout2 } from '@/components/callout'
-import { FeaturesCardList1 } from '@/components/features-list-1'
+import { Callout } from '@/components/callout'
+import { Features } from '@/components/features'
 
 export default function Home () {
   return (
     <div>
       <Hero />
-      <FeaturesCardList1 />
-      <FeaturesCardList />
-      <Callout2 />
+      <Features />
+      <Callout />
     </div>
   )
 }

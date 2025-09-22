@@ -4,13 +4,13 @@ import Link from 'next/link'
 import s from './callout.module.css'
 import Image from 'next/image'
 import bannerpng from '../../public/banner.png'
-export function Callout2 () {
+export function Callout () {
   return (
 <Section>
 <article className="relative mx-auto lg:w-[90%] lg:h-[90%] w-full h-full overflow-hidden rounded-[8px] border border-gray-100 dark:border-[--dark-border] aspect-[16/9]">
   <div className="absolute inset-0">
-    <Image src={bannerpng} alt="banner" priority fill sizes="90vw" className="object-cover" />
-    <div className="absolute inset-0 bg-black/10 dark:bg-black/50" />
+    <Image src={bannerpng} alt="banner" priority fill sizes="90vw" className="object-cover rounded-[16px]" />
+    <div className="absolute inset-0 bg-black/10 dark:bg-black/50 rounded-[16px]" />
   </div>
 
     {/* Foreground content */}
