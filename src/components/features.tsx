@@ -14,17 +14,17 @@ type Feature = { title: string; subtitle: string; image: StaticImageData }
 const featurelist: Feature[] = [
   {
     title: 'Connect your apps.',
-    subtitle: 'Google Calendar',
+    subtitle: 'Bring your mail client, drive, calendar app, notes app, task manager, and more into one place so nothing is scattered.',
     image: apps
   },
   {
     title: 'Organize your data.',
-    subtitle: 'Google Calendar',
+    subtitle: 'Organize your emails, notes, chats, files, tasks, and events into categories for easy discovery and powerful search.',
     image: organize
   },
   {
     title: 'Create your AI team.',
-    subtitle: 'Google Calendar',
+    subtitle: 'Create your team of expert AI assistants grounded on your organized data.',
     image: assistant
   }
 ]
