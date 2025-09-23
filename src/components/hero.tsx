@@ -16,14 +16,14 @@ export function Hero () {
           </div>
         </div>
         <div className='flex items-start justify-center px-8 sm:px-24 lg:mt-5'>
-          <div className='flex w-full max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]'>
+          <div className='flex w-fit max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]'>
             <Link
               href='https://forms.gle/Y44uKeCq3vNxL66D8'
               target='_blank'
               rel='noopener noreferrer'
-              className='bg-indigo-500 text-white !h-14 flex-col bg-accent-500 items-center justify-center rounded-[8px] !text-base flex w-full text-center'
+              className="inline-flex h-14 w-full items-center justify-center rounded-[16px] px-8 text-base font-medium text-zinc-50 bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-800 transition"
             >
-              Get early access
+              Get early access to Lany
             </Link>
           </div>
         </div>

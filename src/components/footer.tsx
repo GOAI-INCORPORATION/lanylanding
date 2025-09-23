@@ -6,7 +6,7 @@ import Link, { type LinkProps } from 'next/link'
 
 export const Footer = () => {
   return (
-    <footer className='border-t border-gray-300 py-10 dark:border-[--dark-border]'>
+    <footer className='py-10 dark:border-[--dark-border]'>
       <div className='container mx-auto grid grid-cols-2 grid-rows-2 place-items-start items-center gap-y-7 px-6 sm:grid-cols-[1fr_auto_1fr] sm:gap-x-3 sm:gap-y-16'>
         <Link className='flex items-center ring-offset-2' aria-label='Homepage' href='/'>
           <Image src={logopng} alt='logo' width={45} height={38} priority />

@@ -30,7 +30,7 @@ export function FeaturesListTemplate({
     <section className="flex flex-col items-center gap-5 relative container mx-auto lg:!flex-row lg:max-w-[90vw] w-full justify-center">
       <div className="lg:gap-0 flex lg:justify-between lg:flex-row space-y-4 flex-col bg-white p-3 ring ring-zinc-50 ring-offset-4 ring-offset-zinc-100 w-full lg:w-[80vw] border border-gray-200 shadow rounded-[16px]">
         <div className="container flex relative shrink self-stretch lg:px-6 lg:w-1/2">
-          <div className="text-[16px] lg:text-[18px] text-gray-800 lg:w-3/4 w-full">
+          <div className="text-[16px] lg:text-[18px] text-gray-800 lg:w-3/4 w-full px-2 lg:px-0 text-left">
             <span className="font-bold pr-1">{title}</span>
             {subtitle}
           </div>

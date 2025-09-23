@@ -32,7 +32,7 @@ const featurelist: Feature[] = [
 export function Features () {
   return (
     <Section>
-      <div className='text-[--text-primary] leading-tight text-pretty text-start font-medium tracking-[-1.44px] text-[clamp(20px,7vw,28px)]'>
+      <div className='text-[--text-primary] leading-tight text-pretty text-start font-medium tracking-[-1.44px] lg:text-[24px] text-[clamp(20px,7vw,28px)]'>
         Get started with your personal AI workspace.
       </div>
       <div className='mt-5 space-y-10'>

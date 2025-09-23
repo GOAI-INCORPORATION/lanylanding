@@ -24,9 +24,9 @@ export function Callout () {
           href="https://forms.gle/Y44uKeCq3vNxL66D8"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex h-14 w-full items-center justify-center rounded-md px-10 text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 transition"
+          className="inline-flex h-14 w-full items-center justify-center rounded-[16px] px-5 text-base font-medium text-zinc-50 bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-800 transition"
         >
-          Get early access
+          Get early access to Lany
         </Link>
       </div>
     </div>
